@@ -12,7 +12,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity 
 // i am from browser repo
-
+    // i am  from Android Studio
+{
     EditText nameET, locationET;
     Button saveDataBtn, goDataBtn;
 
