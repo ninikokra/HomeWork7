@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/backg6"
+    tools:context=".MainActivity2">
+
+
+    <TextView
+        android:id="@+id/showDataTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:padding="10dp"
+        android:textSize="24sp"
+        android:textColor="#AF4C60"
+        android:background="@drawable/textview_shape"
+        android:textStyle="bold"
+        android:hint="Push Show Button to See Data"
+        android:textColorHint="#8E8181"
+        android:text=""
+        />
+
+    <Button
+        android:id="@+id/showDataButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Show Data"
+        android:backgroundTint="#AF4C60"
+        android:textAllCaps="false"
+
+        />
+
+</LinearLayout>
