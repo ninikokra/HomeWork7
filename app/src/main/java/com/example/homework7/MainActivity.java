@@ -10,7 +10,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity 
+// i am from browser repo
 
     EditText nameET, locationET;
     Button saveDataBtn, goDataBtn;
